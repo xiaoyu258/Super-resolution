@@ -5,7 +5,7 @@
 | Blind Super-Resolution With Iterative Kernel Correction | 2019/ICCV | Proposed an Iterative Kernel Correction (IKC) framework consists of a SR network given a LR and the blur kernel, a kernel predictor given a LR, and a corrector to estimate kernel error given the HR result and the current kernel | Use an iterative method to correct the kernel gradually and achieve blur kernel estimation in blind SR problem |
 | Learning a Single Convolutional Super-Resolution Network for Multiple Degradations | 2018/CVPR | Propose a general framework with dimensionality stretching strategy that enables a SR network to take blur kernel and noise level as input | Consider the kernel as input, but do not estimate the kernel |
 | “Zero-Shot” Super-Resolution using Deep Internal Learning | 2018/CVPR | Train a small image-specific CNN at test time on examples extracted solely from the input image | Unsupervised SR methods, flexible dataset for training, image-specific kernel is estimated from the LR test image using other method, can handle different imaging conditions |
-| Meta-Transfer Learning for Zero-Shot Super-Resolution | 2020/CVPR | 
+| Meta-Transfer Learning for Zero-Shot Super-Resolution | 2020/CVPR | A three stages training scheme: a large-scale training with bicubic degradation data, a meta-transfer learning with diverse blur kernels data, and a self-supervision meta-test phase | Generate result with a few gradient descent update |
 # Network Strategies
 ## Input the kernel
 - Learn a mapping that map the vectorized kernel to a low dimensional representation and assemble it at each pixel or region to obtain the kernel maps
