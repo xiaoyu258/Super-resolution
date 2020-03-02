@@ -14,3 +14,5 @@
 - Predict a residual image that is then added to a bicubicly upsampled image to produce the output
 - spatial feature transform (SFT) layer: use the kernel maps to predict affine transformation for the input feature maps by a scaling and shifting operation
 - sub-pixel convolution layer: Real-time single image and video super-resolution using an efficient sub-pixel convolutional neural network.
+- feature loss for preserving image content and overall spatial structure, but not color, texture
+- style loss for preserving stylistic features but not spatial structure
