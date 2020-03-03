@@ -11,8 +11,8 @@
 # Exemplar Guided SR
 |         Name         | Published |          Method            |          Comments          |
 | :------------------: | :-------: | :------------------------: | :------------------------: |
-| Learning Warped Guidance for Blind Face Restoration | 2018/ECCV | Predict flow field for warping the guided image, and then take the degraded observation and warped guidance as input to produce the result. Use landmark loss and total variation regularization for training | warp the guidance, use landmark loss and tv loss |
-| Exemplar Guided Face Image Super-Resolution without Facial Landmarks | 2019/CVPRW | Warp the guided image to align its contents to the input image by a subnetwork, train the network in an adversarial generative manner with identity loss | warp the guidance, use adversarial loss and identity loss |
+| Learning Warped Guidance for Blind Face Restoration | 2018/ECCV | Predict flow to warp the guided image, and then take LR image and warped guidance as input to produce the result. Use landmark loss and total variation regularization for training | warp the guidance, use landmark loss and tv loss |
+| Exemplar Guided Face Image Super-Resolution without Facial Landmarks | 2019/CVPRW | Warp the guided image to align its contents by a subnetwork, train the network in an adversarial generative manner with identity loss | warp the guidance, use adversarial loss and identity loss |
 
 
 # Network Strategies
