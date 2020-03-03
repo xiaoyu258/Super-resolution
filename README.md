@@ -22,3 +22,6 @@ Perceptual Losses for Real-Time Style Transfer and Super-Resolution
 
 Decouple Learning for Parameterized Image Operators
 - use a weight learning network to adaptively predict the weights of the base network
+
+Dynamic Convolution: Attention over Convolution Kernels
+- dynamic convolution: aggregates multiple convolution kernels dynamically based upon the attentions
