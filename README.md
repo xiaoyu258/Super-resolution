@@ -6,6 +6,8 @@
 | Learning a Single Convolutional Super-Resolution Network for Multiple Degradations | 2018/CVPR | Propose a general framework with dimensionality stretching strategy that enables a SR network to take blur kernel and noise level as input | Consider the kernel as input, but do not estimate the kernel |
 | “Zero-Shot” Super-Resolution using Deep Internal Learning | 2018/CVPR | Train a small image-specific CNN at test time on examples extracted solely from the input image | Unsupervised SR methods, flexible dataset for training, image-specific kernel is estimated from the LR test image using other method, can handle different imaging conditions |
 | Meta-Transfer Learning for Zero-Shot Super-Resolution | 2020/CVPR | A three stages training scheme: a large-scale training with bicubic degradation data, a meta-transfer learning with diverse blur kernels data, and a self-supervision meta-test phase | Generate result with a few gradient descent update |
+| Kernel Modeling Super-Resolution on Real Low-Resolution Images | 2019/ICCV | Generate a GAN-augmented blur kernel pool by extracting real blur kernels with a kernel estimation algorithm, then construct a paired LR-HR training dataset based on the kernel pool | blur kernel augmentation by GAN
+
 # Network Strategies
 ## Input the kernel
 - Learn a mapping that map the vectorized kernel to a low dimensional representation and assemble it at each pixel or region to obtain the kernel maps
