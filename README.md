@@ -1,11 +1,3 @@
-# SISR
-|         Name         | Published |      Method        |          Comments          |
-| :------------------: | :-------: | :----------------: | :------------------------: |
-| Zoom to Learn, Learn to Zoom | 2019/CVPR | introduce a new dataset, SR-RAW, for super-resolution from raw data, with optical ground truth, propose a novel contextual bilateral loss for training | SR-RAW dataset from real sensor, contextual bilateral loss |
-| Towards Real Scene Super-Resolution with Raw Images | 2019/CVPR | propose a method to generate realistic training data by simulating the imaging process, develop a dual network architecture for training | generate realistic training data, dual network |
-| Second-order Attention Network for Single Image Super-Resolution | 2019/CVPR | propose SAN with second-order channel attention (SOCA) module that adaptively rescale the channel-wise features and present a non-locally enhanced residual group (NLRG) structure | second-order channel attention module, non-locally enhanced residual group structure | 
-
-
 # Blind SR
 |         Name         | Published |      Method        |          Comments          |
 | :------------------: | :-------: | :----------------: | :------------------------: |
@@ -16,11 +8,22 @@
 | “Zero-Shot” Super-Resolution using Deep Internal Learning | 2018/CVPR | Train a small image-specific CNN at test time on examples extracted solely from the input image | Unsupervised SR methods, image-specific kernel is estimated for training dataset, can handle different imaging conditions |
 | Meta-Transfer Learning for Zero-Shot Super-Resolution | 2020/CVPR | A three stages training scheme: a large-scale training with bicubic degradation data, a meta-transfer learning with diverse blur kernels data, and a self-supervision meta-test phase | Generate result with a few gradient descent update |
 
+# SISR
+|         Name         | Published |      Method        |          Comments          |
+| :------------------: | :-------: | :----------------: | :------------------------: |
+| Zoom to Learn, Learn to Zoom | 2019/CVPR | introduce a new dataset, SR-RAW, for super-resolution from raw data, with optical ground truth, propose a novel contextual bilateral loss for training | SR-RAW dataset from real sensor, contextual bilateral loss |
+| Towards Real Scene Super-Resolution with Raw Images | 2019/CVPR | propose a method to generate realistic training data by simulating the imaging process, develop a dual network architecture for training | generate realistic training data, dual network |
+| Toward Real-World Single Image Super-Resolution: A New Benchmark and A New Model | 2019/CVPR | build a real-world SR (RealSR) dataset captured by adjusting the focal length and aliging the image pairs at different resolutions, present a Laplacian pyramid based kernel prediction network (LP-KPN) | real-world SR (RealSR) dataset, LP-KPN |
+| Second-order Attention Network for Single Image Super-Resolution | 2019/CVPR | propose SAN with second-order channel attention (SOCA) module that adaptively rescale the channel-wise features and present a non-locally enhanced residual group (NLRG) structure | second-order channel attention module, non-locally enhanced residual group structure | 
+| SROBB: Targeted Perceptual Loss for Single Image Super-Resolution | 2019/CVPR | propose a loss that penalizes images at different semantic levels according to a segmentation label | targeted perceptual loss |
+
+
 # Exemplar Guided SR
 |         Name         | Published |      Method        |          Comments          |
 | :------------------: | :-------: | :----------------: | :------------------------: |
 | Learning Warped Guidance for Blind Face Restoration | 2018/ECCV | Predict flow to warp the guided image, and then take LR image and warped guidance as input to produce the result. Use landmark loss and total variation regularization for training | Warp the guidance, use landmark loss and tv loss |
 | Exemplar Guided Face Image Super-Resolution without Facial Landmarks | 2019/CVPRW | Warp the guided image to align its contents by a subnetwork, train the network in an adversarial generative manner with identity loss | Warp the guidance, use adversarial loss and identity loss |
+| Image Super-Resolution by Neural Texture Transfer | 2019/CVPR | design an deep model which enriches HR details by adaptively transferring the texture from Ref images according to the textural similarity | texture transfer for reference-based SR|
 
 
 # Network Strategies
