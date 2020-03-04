@@ -18,7 +18,7 @@ n: usually is additive white Gaussian noise (AWGN)
 - Towards advanced architecture
 - Towards advanced loss
 
-**Blind SR: assume degradation process is unknown (explored in recent work)**
+**Blind SR: assume degradation process is unknown (only explored in CNNs recently, the first work is claimed in 2018)**
 - Consider modeling blur kernel in the network
 - Consider zero-shot learning 
 
