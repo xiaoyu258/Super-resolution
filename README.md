@@ -13,16 +13,16 @@ n: usually is additive white Gaussian noise (AWGN)
 
 # Category
 
-**SISR: mostly assume that a LR image is bicubicly downsampled from a HR image (bicubic degradation)**
+**SISR: mostly assume that a LR image is bicubicly downsampled from a HR image (bicubic degradation, lots of related work)**
 - Towards real images data
 - Towards advanced architecture
 - Towards advanced loss
 
-**Blind SR: assume degradation process is unknown**
+**Blind SR: assume degradation process is unknown (explored in recent work)**
 - Consider modeling blur kernel in the network
 - Consider zero-shot learning 
 
-**Exemplar Guided SR: Use an exemplar image as additional information for SR**
+**Exemplar Guided SR: Use an exemplar image as additional information for SR (only found 3 related papers)**
 - Warping-based
 - Patch matching
 
