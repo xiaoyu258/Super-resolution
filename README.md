@@ -13,12 +13,12 @@ n: usually is additive white Gaussian noise (AWGN)
 
 # Deep SR Category
 
-**SISR: mostly assume that a LR image is bicubicly downsampled from a HR image (bicubic degradation, lots of related work)**
+**SISR: mostly assume that a LR image is bicubicly downsampled from a HR image (bicubic degradation, lots of related work, begin from SRCNN in ECCV 2014)**
 - Towards real images data
 - Towards advanced architecture
 - Towards advanced loss
 
-**Blind SR: assume degradation process is unknown (only explored in CNNs recently, the first work is claimed in 2018)**
+**Blind SR: assume degradation process is unknown (only explored in CNNs recently, the first work is claimed in CVPR 2018)**
 - Consider modeling blur kernel in the network
 - Consider zero-shot learning 
 
