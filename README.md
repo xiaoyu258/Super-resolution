@@ -1,3 +1,32 @@
+# Degradation Process
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{300}&space;\tiny&space;y&space;=&space;(x&space;\otimes&space;k)\downarrow&space;s&space;&plus;&space;n" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\tiny&space;y&space;=&space;(x&space;\otimes&space;k)\downarrow&space;s&space;&plus;&space;n" title="\tiny y = (x \otimes k)\downarrow s + n" /></a>
+
+y: an LR image
+
+x: latent HR image
+
+k: convolution with a blur kernel
+
+s: downsampling operation with scale factor s
+
+n: usually is additive white Gaussian noise (AWGN)
+
+# Category
+
+**SISR: mostly assume that a LR image is bicubicly downsampled from a HR image (bicubic degradation)**
+- Towards real images data
+- Towards advanced architecture
+- Towards advanced loss
+
+**Blind SR: assume degradation process is unknown**
+- Consider modeling blur kernel in the network
+- Consider zero-shot learning 
+
+**Exemplar Guided SR: Use an exemplar image as additional information for SR**
+- Warping-based
+- 
+
+
 # Blind SR
 |         Name         | Published |      Method        |          Comments          |
 | :------------------: | :-------: | :----------------: | :------------------------: |
