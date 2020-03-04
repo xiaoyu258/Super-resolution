@@ -3,6 +3,7 @@
 | :------------------: | :-------: | :----------------: | :------------------------: |
 | Zoom to Learn, Learn to Zoom | 2019/CVPR | introduce a new dataset, SR-RAW, for super-resolution from raw data, with optical ground truth, propose a novel contextual bilateral loss for training | SR-RAW dataset from real sensor, contextual bilateral loss |
 | Towards Real Scene Super-Resolution with Raw Images | 2019/CVPR | propose a method to generate realistic training data by simulating the imaging process, develop a dual network architecture for training | generate realistic training data, dual network |
+| Second-order Attention Network for Single Image Super-Resolution | 2019/CVPR | propose SAN with second-order channel attention (SOCA) module that adaptively rescale the channel-wise features and present a non-locally enhanced residual group (NLRG) structure | second-order channel attention module, non-locally enhanced residual group structure | 
 
 
 # Blind SR
