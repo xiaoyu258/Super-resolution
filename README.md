@@ -11,7 +11,7 @@ s: downsampling operation with scale factor s
 
 n: usually is additive white Gaussian noise (AWGN)
 
-# Category
+# Deep SR Category
 
 **SISR: mostly assume that a LR image is bicubicly downsampled from a HR image (bicubic degradation, lots of related work)**
 - Towards real images data
