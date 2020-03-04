@@ -1,6 +1,8 @@
 # SISR
 |         Name         | Published |      Method        |          Comments          |
 | :------------------: | :-------: | :----------------: | :------------------------: |
+| Zoom to Learn, Learn to Zoom | 2019/CVPR | introduce a new dataset, SR-RAW, for super-resolution from raw data, with optical ground truth, propose a novel contextual bilateral loss for training | SR-RAW dataset from real sensor, contextual bilateral loss |
+| Towards Real Scene Super-Resolution with Raw Images | 2019/CVPR | propose a method to generate realistic training data by simulating the imaging process, develop a dual network architecture for training | generate realistic training data, dual network |
 
 
 # Blind SR
@@ -39,3 +41,7 @@ Decouple Learning for Parameterized Image Operators
 
 Dynamic Convolution: Attention over Convolution Kernels
 - dynamic convolution: aggregates multiple convolution kernels dynamically based upon the attentions
+
+Deep Network Interpolation for Continuous Imagery Effect Transition
+
+CFSNet: Toward a Controllable Feature Space for Image Restoration
