@@ -24,8 +24,7 @@ n: usually is additive white Gaussian noise (AWGN)
 
 **Exemplar Guided SR: Use an exemplar image as additional information for SR**
 - Warping-based
-- 
-
+- Patch matching
 
 # Blind SR
 |         Name         | Published |      Method        |          Comments          |
